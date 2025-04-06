@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dify Code Convertor</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Dify Code Convertor</h1>
+        </header>
+        <main>
+            <div class="converter-container">
+                <div class="language-selector">
+                    <label for="targetLanguage">Target Language:</label>
+                    <select id="targetLanguage">
+                        <option value="Python">Python</option>
+                        <option value="JavaScript">JavaScript</option>
+                        <option value="Java">Java</option>
+                        <option value="C">C</option>
+                        <option value="C#">C#</option>
+                        <option value="PHP">PHP</option>
+                        <option value="Ruby">Ruby</option>
+                        <option value="Swift">Swift</option>
+                        <option value="Go">Go</option>
+                        <option value="Shell">Shell</option>
+                        <option value="Objective-C">Objective-C</option>
+                        <option value="R">R</option>
+                    </select>
+                </div>
+                <div class="code-container">
+                    <div class="code-section">
+                        <div class="section-header">
+                            <h3>Input Code</h3>
+                        </div>
+                        <textarea id="codeInput" class="code-editor" placeholder="Paste your code here..."></textarea>
+                    </div>
+                    <div class="code-section">
+                        <div class="section-header">
+                            <h3>Converted Code</h3>
+                            <button id="copyButton" class="icon-button">Copy</button>
+                        </div>
+                        <div id="codeOutput" class="code-editor output"></div>
+                    </div>
+                </div>
+                <div class="action-buttons">
+                    <button id="convertButton" class="primary-button">Convert Code</button>
+                    <button id="clearButton" class="secondary-button">Clear</button>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 
