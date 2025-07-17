@@ -1,0 +1,49 @@
+body {
+    background-color: #fff0f5; /* Lavender Blush */
+    font-family: 'Fredoka One', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: #ff69b4; /* Hot Pink */
+}
+
+.container {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+#restaurant-display {
+    margin: 30px 0;
+    font-size: 1.5em;
+    min-height: 50px;
+    color: #333;
+}
+
+#chooser-button {
+    background-color: #ff69b4; /* Hot Pink */
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    font-family: 'Fredoka One', cursive;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+#chooser-button:hover {
+    background-color: #ff85c1; /* Lighter Pink */
+}
+
+#chooser-button:active {
+    transform: scale(0.95);
+}
